@@ -18,6 +18,7 @@ const { isDate } = require("../helpers/isDate");
 // Todas las peticiones deben validar su JWT
 router.use(validarJWT);
 // Todas tienen que pasar por la validacion del JWT
+
 // Obtener eventos
 router.get("/", getEventos);
 
